@@ -7,7 +7,7 @@
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  --primary-color: #edf2f8;
+  --primary-color: #edf8f1;
   --secondary-color: #313bac;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
@@ -152,6 +152,7 @@
     }
 
     &:hover {
+      transform: scale(1.2);
       background-color: var(--secondary-color);
       border-color: var(--secondary-color);
 
