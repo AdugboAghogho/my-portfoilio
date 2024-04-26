@@ -6,6 +6,7 @@ import ReactTooltip from 'react-tooltip';
 import { AppWrap, MotionWrap } from '../../src/wrapper';
 import { urlFor, client } from '../../src/client';
 import './Skills.css';
+import Image from 'next/image';
 
 const Skills = () => {
   const [experiences, setExperiences] = useState([]);
@@ -23,7 +24,7 @@ const Skills = () => {
       setSkills(data);
     });
 
-    
+
 
   }, []);
 
@@ -44,7 +45,7 @@ const Skills = () => {
                 className="app__flex"
                 style={{ backgroundColor: skill.bgColor }}
               >
-                <img src={urlFor(skill.icon)} alt={skill.name} />
+                <Image src={urlFor(skill.icon)} alt={skill.name} />
               </div>
               <p className="p-text">{skill.name}</p>
             </motion.div>
