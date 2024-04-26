@@ -27,6 +27,7 @@ const Skills = () => {
     
 
 
+
   }, []);
 
   return (
