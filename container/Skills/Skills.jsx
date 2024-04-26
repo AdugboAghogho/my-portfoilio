@@ -24,7 +24,7 @@ const Skills = () => {
       setSkills(data);
     });
 
-    
+
 
 
 
