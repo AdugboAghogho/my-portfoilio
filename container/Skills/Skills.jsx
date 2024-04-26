@@ -22,6 +22,7 @@ const Skills = () => {
     client.fetch(skillsQuery).then((data) => {
       setSkills(data);
     });
+    
   }, []);
 
   return (
