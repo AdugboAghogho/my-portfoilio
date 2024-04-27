@@ -1,12 +1,14 @@
 import React from 'react';
 import { BsTwitter, BsInstagram } from 'react-icons/bs';
-import { FaFacebookF, FaWhatsappSquare } from 'react-icons/fa';
+import { FaFacebookF } from 'react-icons/fa';
 import { RiWhatsappLine } from "react-icons/ri";
+import { IoLogoWhatsapp } from "react-icons/io5";
+
 
 const SocialMedia = () => (
   <div className="app__social">
     <div>
-      <FaWhatsappSquare />
+    <IoLogoWhatsapp />
     </div>
     <div>
       <FaFacebookF />

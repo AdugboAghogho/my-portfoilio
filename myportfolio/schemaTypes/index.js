@@ -9,7 +9,7 @@ import works from "./works";
 
 
 export const schemaTypes = [
-  skills,  
+  // skills,  
   abouts,
   brands,
   contact,
