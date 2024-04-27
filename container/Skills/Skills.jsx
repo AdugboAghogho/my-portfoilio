@@ -105,16 +105,3 @@ export default AppWrap(
   'skills',
   'app__whitebg',
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
