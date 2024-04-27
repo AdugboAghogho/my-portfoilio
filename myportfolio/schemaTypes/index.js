@@ -13,7 +13,7 @@ export const schemaTypes = [
   abouts,
   brands,
   contact,
-  experiences,
+  // experiences,
   testimonials,
   workExperience,
   works,
