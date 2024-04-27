@@ -9,11 +9,11 @@ import works from "./works";
 
 
 export const schemaTypes = [
+  skills,  
   abouts,
   brands,
   contact,
 //   experiences,
-  skills,  
   testimonials,
   workExperience,
   works,
