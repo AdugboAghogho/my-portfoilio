@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import ReactTooltip from 'react-tooltip';
+import {ReactTooltip} from 'react-tooltip';
 
 import { AppWrap, MotionWrap } from '../../src/wrapper';
 import { urlFor, client } from '../../src/client';
@@ -94,6 +94,7 @@ export default AppWrap(
   'skills',
   'app__whitebg',
 );
+
 
 
 
