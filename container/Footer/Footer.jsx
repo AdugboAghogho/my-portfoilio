@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../src/wrapper';
-import { client } from '../../client';
+import { client } from '../../src/client';
 import './Footer.scss';
 
 const Footer = () => {
