@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
-import { AppWrap, MotionWrap } from '../../wrapper';
+import { AppWrap, MotionWrap } from '../../src/wrapper';
 import { urlFor, client } from '../../src/client';
 import './Testimonial.css';
 
