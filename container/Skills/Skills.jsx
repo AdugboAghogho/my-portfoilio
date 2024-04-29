@@ -89,8 +89,7 @@ const Skills = () => {
   );
 };
 
-export default Skills (
-  MotionWrap(Skills, 'app__skills'),
-  'skills',
-  'app__whitebg',
-);
+export default Skills;
+
+ 
+const WrappedSkills = MotionWrap(Skills, 'app__skills');
