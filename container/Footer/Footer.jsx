@@ -5,6 +5,7 @@ import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../src/wrapper';
 import { client } from '../../src/client';
 import './Footer.css';
+import Image from 'next/image';
 
 const Footer = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -42,10 +43,10 @@ const Footer = () => {
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
-          <img src={images.email} alt="email" />
+          <Image src={images.email} alt="email" />
           <a href="adugboaghogho@gmail.com" className="p-text">hello@micael.com</a>
         </div>
-        
+
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
           <a href="tel:+234 7084838253" className="p-text">+1 (123) 456-7890</a>
