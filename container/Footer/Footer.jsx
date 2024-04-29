@@ -49,6 +49,7 @@ const Footer = () => {
           <a href="tel:+1 (123) 456-7890" className="p-text">+1 (123) 456-7890</a>
         </div>
       </div>
+      
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
