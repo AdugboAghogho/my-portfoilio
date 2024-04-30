@@ -18,7 +18,7 @@ const SocialMedia = () => {
 
   const handleInstagramClick = () => {
     // Replace with the deep link URL for Instagram (if available)
-    window.location.href = 'your-instagram-deep-link-here';
+    window.location.href = 'https://www.instagram.com/iam_kelvin_adugbo?igsh=bGxrdWptdGF3djY1';
   };
 
 
