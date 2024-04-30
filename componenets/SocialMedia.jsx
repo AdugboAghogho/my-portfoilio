@@ -23,7 +23,7 @@ const SocialMedia = () => {
 
   
   return (
-    <div className="social-links">
+    <div className="app__social">
       <div onClick={handleWhatsappClick}>
         <IoLogoWhatsapp />
       </div>
