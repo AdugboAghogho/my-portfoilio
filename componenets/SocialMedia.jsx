@@ -9,11 +9,11 @@ const SocialMedia = () => {
   
   const handleWhatsappClick = () => {
     // Replace with the deep link URL for WhatsApp (if available)
-    window.location.href = 'your-whatsapp-deep-link-here';
+    window.location.href = '://wa.me/07084838253';
   };
   const handleFacebookClick = () => {
     // Replace with the deep link URL for Facebook (if available)
-    window.location.href = 'your-facebook-deep-link-here';
+    window.location.href = 'https://www.facebook.com/profile.php?id=100081092891368&mibextid=JRoKGi';
   };
 
   const handleInstagramClick = () => {
@@ -22,7 +22,7 @@ const SocialMedia = () => {
   };
 
 
-  
+
   
   return (
     <div className="app__social">
