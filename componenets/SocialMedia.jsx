@@ -5,7 +5,7 @@ import { RiWhatsappLine } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io5";
 
 
-const SocialMedia = () => (
+const SocialMedia = () => { 
   
   const handleWhatsappClick = () => {
     // Replace with the deep link URL for WhatsApp (if available)
@@ -36,6 +36,6 @@ const SocialMedia = () => (
     </div>
   );
 
-);
+};
 
 export default SocialMedia;
