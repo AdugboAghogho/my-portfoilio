@@ -22,6 +22,7 @@ const SocialMedia = () => {
   };
 
   
+  
   return (
     <div className="app__social">
       <div onClick={handleWhatsappClick}>
