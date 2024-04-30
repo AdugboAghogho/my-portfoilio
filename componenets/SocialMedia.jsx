@@ -6,17 +6,36 @@ import { IoLogoWhatsapp } from "react-icons/io5";
 
 
 const SocialMedia = () => (
-  <div className="app__social">
-    <div>
-    <IoLogoWhatsapp />
+  
+  const handleWhatsappClick = () => {
+    // Replace with the deep link URL for WhatsApp (if available)
+    window.location.href = 'your-whatsapp-deep-link-here';
+  };
+  const handleFacebookClick = () => {
+    // Replace with the deep link URL for Facebook (if available)
+    window.location.href = 'your-facebook-deep-link-here';
+  };
+
+  const handleInstagramClick = () => {
+    // Replace with the deep link URL for Instagram (if available)
+    window.location.href = 'your-instagram-deep-link-here';
+  };
+
+  
+  return (
+    <div className="social-links">
+      <div onClick={handleWhatsappClick}>
+        <IoLogoWhatsapp />
+      </div>
+      <div onClick={handleFacebookClick}>
+        <FaFacebookF />
+      </div>
+      <div onClick={handleInstagramClick}>
+        <BsInstagram />
+      </div>
     </div>
-    <div>
-      <FaFacebookF />
-    </div>
-    <div>
-      <BsInstagram />
-    </div>
-  </div>
+  );
+
 );
 
 export default SocialMedia;
