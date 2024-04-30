@@ -21,6 +21,7 @@ const SocialMedia = () => {
     window.location.href = 'your-instagram-deep-link-here';
   };
 
+
   
   
   return (
