@@ -7,10 +7,16 @@
 
 // export default config;
 
-export default {
+// export default {
+//   plugins: {
+//     autoprefixer: {},
+//     tailwindcss: {},
+//   },
+// };
+
+module.exports = {
   plugins: {
-    autoprefixer: {},
+    autoprefixer: {}, // Ensure autoprefixer is listed
     tailwindcss: {},
   },
 };
-
