@@ -14,9 +14,7 @@
 //   },
 // };
 
-module.exports = {
-  plugins: {
-    autoprefixer: {}, // Ensure autoprefixer is listed
-    tailwindcss: {},
-  },
+export const plugins = {
+  autoprefixer: {}, // Ensure autoprefixer is listed
+  tailwindcss: {},
 };
